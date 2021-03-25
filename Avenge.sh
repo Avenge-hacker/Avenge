@@ -34,7 +34,7 @@ rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
 clear
-cd /core/update/
+cd $HOME /Avenge/core/update/
 bash updates.sh
 rm *.xxx >/dev/null 2>&1
 exit 0
