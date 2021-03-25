@@ -53,6 +53,7 @@ echo -e "$grn               Avenge has been install check it now...$rset"
 sleep 3.0
 echo " "
 cd $HOME
+cd Avenge
 chmod +x Avenge.sh
 ./Avenge.sh
 clear
