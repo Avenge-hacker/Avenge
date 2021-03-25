@@ -42,17 +42,18 @@ sleep 2.0
 clear
 echo -e "$red                         ████████ 100% $rset"
 sleep 2.0
+clear
 echo " "
 echo " "
 echo -e "$grn                Downloading Complete ....$rset"
 sleep 2.0
 clear
 echo " "
-echo -e "$grn               Avenge-Tool has been install check it now...$rset"
+echo -e "$grn               Avenge has been install check it now...$rset"
 sleep 3.0
 echo " "
 cd $HOME
 chmod +x Avenge.sh
-./Avenge
+./Avenge.sh
 clear
 sleep 1.0
