@@ -50,7 +50,7 @@ echo " "
 echo -e "$grn                updating the Avenge please wait$rset"
 sleep 2.0
 cd $HOME
-rm -rf Format-pendrive
+rm -rf Avenge
 git clone https://github.com/Avenge-hacker/Avenge
 clear
 echo " "
@@ -60,6 +60,6 @@ echo " "
 cd $HOME
 cd Avenge
 chmod +x setup.sh
-bash setup.sh
+./setup.sh
 clear
 sleep 1.0
