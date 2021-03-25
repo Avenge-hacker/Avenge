@@ -52,7 +52,7 @@ echo -e "$grn               Avenge-Tool has been install check it now...$rset"
 sleep 3.0
 echo " "
 cd $HOME
-chmod +x Avengetools.sh
-./Avengetools
+chmod +x Avenge.sh
+./Avenge
 clear
 sleep 1.0
