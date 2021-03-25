@@ -21,15 +21,16 @@ if [ $ch -eq 1 ];then
 clear
 echo -e "\e[1;32m"
 rm *.xxx >/dev/null 2>&1
-cd /Avenge/Tools/
+cd $HOME /Avenge/Tools/
 chmod +X Tool.sh
 bash Tool.sh
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
 clear
-cd /Avenge/Kali-tools/
-bash Kali-tools.sh
+cd $HOME /Avenge/Kali-tools/
+chmod +x Kali-tools.sh
+./Kali-tools.sh
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
