@@ -1,69 +1,38 @@
 #!/bin/bash
-
-#colour section
-red='\033[1;31m'
-rset='\033[0m'
-grn='\033[1;32m'
-ylo='\033[1;33m'
-#script coding starts
 clear
+echo "Press Enter To Continue"
+read a1
+while :
+do
+rm *.xxx >/dev/null 2>&1
+clear
+echo -e "\e[33m"
+toilet -f mono12 -F border update
+echo -e "\e[4;34m This Program Was Created By Avenge-hacker \e[0m"
+echo -e "\e[1;32m           Mail: avengehacker05@gmail.com \e[0m"
+echo -e "\e[1;32m          website: https://avengehacker.cf \e[0m"
 echo " "
-echo " "
-echo '
-                  _  _  ___  ___   __  ____  ___ 
-                 ( )( )(  ,\(   \ (  )(_  _)(  _)
-                  )()(  ) _/ ) ) )/__\  )(   ) _)
-                  \__/ (_)  (___/(_)(_)(__) (___) v 1.0
-'|lolcat
-echo " "
-echo " "
-sleep 6.0
+echo -e "\e[36m              [1] To  Update \e[0m"
+echo -e "\e[31m              [2] To  uninstall \e[0m"
+echo -e "\e[32m              [3] To  Exit \e[0m"
+read ch
+if [ $ch -eq 1 ];then
 clear
-echo -e "$red                         █ 15% $rset"
-sleep 2.0
+echo -e "\e[1;32m"
+chmod +x update.sh
+./update.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 2 ];then
 clear
-echo -e "$red                         ██ 30% $rset"
-sleep 2.0
+chmod +x uninstall.sh
+./uninstall.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
+elif [ $ch -eq 3 ];then
 clear
-echo -e "$red                         ███ 45% $rset"
-sleep 2.0
-clear
-echo -e "$red                         ████ 60% $rset"
-sleep 2.0
-clear
-echo -e "$red                         █████ 75% $rset"
-sleep 2.0
-clear
-echo -e "$red                         ███████ 99% $rset"
-sleep 2.0
-clear
-echo -e "$red                         ████████ 100% $rset"
-sleep 2.0
-clear
-echo " "
-echo " "
-echo -e "$grn                Downloading Complete ....$rset"
-sleep 2.0
-clear
-echo " "
-echo " "
-echo -e "$grn                updating the Avenge please wait$rset"
-sleep 2.0
-
-cd $HOME /data/data/come.termux/files/home
-rm -rf Avenge
-cd $HOME /data/data/come.termux/files/usr/bin
-rm -rf Avenge
-cd $HOME /data/data/come.termux/files/home
-git clone https://github.com/Avenge-hacker/Avenge.git
-clear
-echo " "
-echo -e "$grn               Avenge has been updated check it now...$rset"
-sleep 3.0
-echo " "
 cd $HOME
-cd Avenge
-chmod +x setup.sh
-./setup.sh
-clear
-sleep 1.0
+rm *.xxx >/dev/null 2>&1
+exit 0
+fi
+done
