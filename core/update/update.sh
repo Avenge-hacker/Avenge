@@ -49,9 +49,13 @@ echo " "
 echo " "
 echo -e "$grn                updating the Avenge please wait$rset"
 sleep 2.0
-cd $HOME
+
+cd $HOME /data/data/come.termux/files/home
 rm -rf Avenge
-git clone https://github.com/Avenge-hacker/Avenge
+cd $HOME /data/data/come.termux/files/usr/bin
+rm -rf Avenge
+cd $HOME /data/data/come.termux/files/home
+git clone https://github.com/Avenge-hacker/Avenge.git
 clear
 echo " "
 echo -e "$grn               Avenge has been updated check it now...$rset"
