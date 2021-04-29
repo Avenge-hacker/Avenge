@@ -54,7 +54,12 @@ sleep 3.0
 echo " "
 cd $HOME
 cd Avenge
+chmod +x Avenge
+mv Avenge /data/data/come.termux/files/usr/bin
 chmod +x Avenge.sh
+echo -e "\e[43;1m Type (Avenge) and Direct Open \e[0m"
+echo -e "\e[43;1m   Press Enter \e[0m"
+read a1
 ./Avenge.sh
 clear
 sleep 1.0
