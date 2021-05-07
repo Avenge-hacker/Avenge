@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cd /data/data/come.termux/files/home/Avenge
+cd /data/data/com.termux/files/home/Avenge/
 exec ./Avenge.sh "$@"
