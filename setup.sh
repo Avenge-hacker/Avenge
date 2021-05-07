@@ -55,7 +55,8 @@ echo " "
 cd $HOME
 cd Avenge
 chmod +x Avenge
-mv Avenge /data/data/come.termux/files/usr/bin
+mv Avenge /data/data/come.termux/files/usr/bin/
+cd /data/data/com.termux/files/home/Avenge/
 chmod +x Avenge.sh
 echo -e "\e[43;1m Type (Avenge) and Direct Open \e[0m"
 echo -e "\e[43;1m   Press Enter \e[0m"
