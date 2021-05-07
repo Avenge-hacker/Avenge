@@ -17,13 +17,13 @@ echo -e "\e[36m                        ➡ [2️⃣]  Kali-tools \e[0m  "
 echo -e "\e[35;1m                       ➡️ [3️⃣]  update \e[0m  "
 echo -e "\e[35;1m                         ➡ [4️⃣]   Exit \e[0m "
 read ch           
-if [ $ch -eq 1 ];then
 clear
 echo -e "\e[1;32m"
 rm *.xxx >/dev/null 2>&1
 cd $HOME /Avenge/Tools/
-chmod +X Tool.sh
-bash Tool.sh
+cd Tools
+chmod +x Tool.sh
+./Tool.sh
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
@@ -35,7 +35,7 @@ rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
 clear
-cd $HOME /data/data/come.termux/files/home/Avenge/core/update
+cd $HOME /Avenge/core/update
 chmod +x updates.sh
 ./updates.sh
 rm *.xxx >/dev/null 2>&1
