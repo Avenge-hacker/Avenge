@@ -19,12 +19,14 @@ read ch
 if [ $ch -eq 1 ];then
 clear
 echo -e "\e[1;32m"
-bash update.sh
+chmod +x update.sh
+./update.sh
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
 clear
-bash uninstall.sh
+chmod +x uninstall.sh
+./uninstall.sh
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
