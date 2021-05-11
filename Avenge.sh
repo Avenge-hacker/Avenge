@@ -19,6 +19,7 @@ echo -e "\e[35;1m                         ➡ [4️⃣]   Exit \e[0m "
 read ch           
 clear
 echo -e "\e[1;32m"
+if [ $ch -eq 1 ];then
 rm *.xxx >/dev/null 2>&1
 cd $HOME /Avenge/Tools/
 cd Tools
@@ -35,7 +36,7 @@ rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
 clear
-cd $HOME /Avenge/core/update
+cd cd /data/data/com.termux/files/home/Avenge/core/update
 chmod +x updates.sh
 ./updates.sh
 rm *.xxx >/dev/null 2>&1
