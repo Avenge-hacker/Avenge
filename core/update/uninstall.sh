@@ -45,16 +45,13 @@ echo " "
 echo " "
 echo -e "$grn                uninstalling the Avenge please wait$rset"
 sleep 2.0
-cd /data/data/come.termux/files/usr/bin
-rm -rf Avenge
-clear
-echo".."
-echo"...."
 cd /data/data/come.termux/files/home
+rm -rf Avenge
+cd /data/data/com.termux/files/usr/bin
 rm -rf Avenge
 clear
 echo " "
 echo -e "$grn               Avenge has been uninstalling check it now...$rset"
 sleep 3.0
 echo " "
-cd /data/data/come.termux/files/home
+cd $HOME
