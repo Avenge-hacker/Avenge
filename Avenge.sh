@@ -36,7 +36,7 @@ rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
 clear
-cd cd /data/data/com.termux/files/home/Avenge/core/update
+cd /data/data/com.termux/files/home/Avenge/core/update
 chmod +x updates.sh
 ./updates.sh
 rm *.xxx >/dev/null 2>&1
