@@ -45,6 +45,8 @@ echo " "
 echo " "
 echo -e "$grn                uninstalling the Avenge please wait$rset"
 sleep 2.0
+clear
+cd $HOME
 cd /data/data/come.termux/files/home
 rm -rf Avenge
 cd /data/data/com.termux/files/usr/bin
