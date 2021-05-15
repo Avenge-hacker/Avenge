@@ -58,6 +58,8 @@ chmod +x Avenge
 mv Avenge /data/data/com.termux/files/usr/bin
 cd /data/data/com.termux/files/home/Avenge/
 chmod +x Avenge.sh
+pkg install figlet -y
+clear
 echo -e "\e[43;1m Type (Avenge) and Direct Open \e[0m"
 echo -e "\e[43;1m   Press Enter \e[0m"
 read a1
