@@ -52,6 +52,7 @@ rm -rf Avenge
 cd /data/data/com.termux/files/usr/bin
 rm -rf Avenge
 clear
+cd $HOME
 cd /data/data/come.termux/files/home
 git clone https://github.com/Avenge-hacker/Avenge
 cd Avenge
